@@ -1,0 +1,153 @@
+@media print {
+    .dua {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 450px;
+        height: 450px;
+        opacity: 20%;
+
+    }
+}
+
+.gambar {
+    width: 15rem;
+    height: 15rem;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.modified-gambar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.satu {
+    width: 700px;
+    height: 1051px;
+    margin: auto;
+    margin-top: 0.5px;
+    position: relative;
+    border: solid none;
+    margin-bottom: 2px;
+}
+
+.dua {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 450px;
+    height: 450px;
+    opacity: 20%;
+
+}
+
+.kop {
+    display: inline-block;
+    width: 80px;
+    border: solid blue;
+}
+
+.text-kop {
+    display: inline-block;
+    border: solid blue;
+    width: 600px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.kop-border {
+    border: solid black;
+    border-width: 1px;
+}
+
+.capaian {
+    border-color: #dedede;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.isi-capaian {
+    border: solid #dedede;
+    border-width: 1px;
+    border-top: 0;
+    padding: 10px;
+    text-align: justify;
+}
+
+#capaian {
+    border-color: #dedede;
+    border-width: 1px;
+    border-style: solid;
+}
+
+thead tr td {
+    text-align: center;
+}
+
+tbody tr td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.bgkelas1 {
+    background-image: url("../../assets_landing/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.bg-raport {
+    justify-content: center;
+    align-items: center;
+}
+
+.sub {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.bdt {
+    display: inline-block;
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    height: 25px;
+}
+
+.isi_bdt {
+    display: inline-block;
+    height: 20px;
+}
+
+.foto {
+    display: inline-block;
+}

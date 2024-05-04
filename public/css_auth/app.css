@@ -1,0 +1,197 @@
+.garis-sekolah {
+	margin-top: -12px;
+}
+
+.text-siswa-detail {
+	margin: 0;
+	margin-bottom: 5px;
+	margin-left: -20px;
+	font-size: 14px;
+}
+
+.text-hp {
+	font-size: 14px;
+}
+
+.m-hp {
+	margin-top: -10px;
+}
+
+.m-laporan {
+	margin-left: -10px;
+}
+
+.text-align-hp {
+	text-align: left;
+}
+
+@media (min-width: 992px) {
+	.garis-sekolah {
+		margin-top: 0;
+	}
+
+	.text-siswa-detail {
+		margin: 0;
+		margin-bottom: 5px;
+		margin-left: 0px;
+		font-size: 16px;
+	}
+
+	.text-hp {
+		font-size: 16px;
+	}
+
+	.m-hp {
+		margin-top: 0px;
+	}
+
+	.text-align-hp {
+		text-align: right;
+	}
+
+	.m-laporan {
+		margin-left: 0px;
+	}
+	
+}
+
+#tbl-border {
+	border-color: #d0e2a8;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.cektujuan {
+	margin-left: -5px;
+}
+
+.warna-1 {
+	background-color: #67893f;
+	border: 0;
+}
+
+.warna-2 {
+	background-color: #8dba21;
+	border: 0;
+}
+
+.warna-3 {
+	background-color: #d0e2a8;
+	border: 0;
+}
+
+.warna-4 {
+	background-color: #a5c47e;
+	border: 0;
+}
+
+.tombol-plus {
+	background-color: #d0e2a8;
+	border: 0;
+}
+
+.tombol-min {
+	background-color: #d03672;
+	border: 0;
+}
+
+.tombol-edit {
+	background-color: #7cbfb5;
+	border: 0;
+}
+
+.tombol-info {
+	background-color: #fde221;
+	border: 0;
+}
+
+.tombol-tambah {
+	background-color: #226462;
+	border: 0;
+}
+
+.posisi-tombol {
+	justify-content: center;
+}
+
+.gb {
+	width: 3rem;
+	height: 3rem;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.gb-raport {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+
+div .surah {
+	width: 100%;
+}
+
+.bg-app {
+	background-color: #a5c47e;
+}
+
+.m-footer {
+	padding-bottom: 20px;
+}
+
+/* .topFileSiswa:hover {
+	background-color: #67893f;
+	margin-bottom: 15px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+} */
+
+@media (min-width: 992px) {
+	.bg-app {
+		background-color: #d0e2a8;
+	}
+
+	.posisi-tombol {
+		justify-content: left;
+	}
+
+	.gb {
+		width: 10rem;
+		height: 10rem;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	div .surah {
+		width: 48%;
+	}
+
+	.cektujuan {
+		margin-left: -5px;
+	}
+}
+
+.side-com {
+	display: none;
+}
+
+.side-hp {
+	display: block;
+}
+
+
+@media (min-width: 992px) {
+
+	.side-com {
+		display: block;
+	}
+
+	.side-hp {
+		display: none;
+	}
+}

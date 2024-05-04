@@ -1,0 +1,361 @@
+.bg-primary {
+    background-color: #5da698 !important;
+}
+
+.btn-primary {
+    border: 0;
+    background-color: #5da698 !important;
+}
+
+.btn-outline-primary {
+    border: solid 1px #5da698 !important;
+    color: #5da698 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #5da698 !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    border: solid 1px #5da698;
+    background-color: white !important;
+    color: #5da698;
+}
+
+.bg-dasar {
+    background-color: #f2f2f2;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 4px;
+    border-color: #007bff transparent #007bff transparent;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#main-content {
+    display: none;
+}
+
+#navigasi .navbar {
+    padding: 10px;
+}
+
+.text-title {
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 200;
+}
+
+.text-visi {
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 200;
+}
+
+.nav-item {
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 100;
+}
+
+.logo-sekolah {
+    width: 25px;
+    height: 25px;
+    margin-right: -40px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 13rem;
+}
+
+.img-carousel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.text-satu {
+    font-size: 25px;
+    font-family: "Tilt Neon", sans-serif;
+    word-spacing: 10px;
+    line-height: 2.3rem;
+    animation: moveDown 1s ease-in-out;
+}
+
+.text-satu span {
+    font-size: 30px;
+    color: #5da698;
+    font-weight: 800;
+}
+
+#carouselExampleIndicators {
+    margin-top: -2rem;
+    animation: moveUp 1s ease-in-out;
+}
+
+@keyframes moveDown {
+    0% {
+        transform: translateY(70px); /* Posisi awal */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px); /* Posisi akhir (bergerak 5px ke bawah) */
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(100px); /* Posisi awal */
+        opacity: 0;
+    }
+    30% {
+        transform: translateY(100px); /* Posisi awal */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px); /* Posisi akhir (bergerak 5px ke bawah) */
+        opacity: 1;
+    }
+}
+
+.side-com {
+    display: none;
+}
+
+.btn-dok {
+    text-align: center;
+}
+
+.img-kegiatan {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.img-tendik {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.menu-dropend {
+    display: none; /* Atur awalnya menjadi none (sembunyikan) */
+}
+
+.dropend:hover + .menu-dropend {
+    display: block; /* Tampilkan class menu-dropen saat class dropen disentuh */
+}
+
+@media (min-width: 992px) {
+    .img-kegiatan {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .img-tendik {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    .nav-item {
+        padding-left: 30px;
+    }
+
+    .btn-dok {
+        text-align: left;
+    }
+
+    .side-com {
+        display: block;
+    }
+
+    #navigasi .navbar {
+        padding: 25px;
+    }
+
+    .logo-sekolah {
+        margin-right: 10px;
+    }
+
+    .carousel-item {
+        height: 20rem;
+    }
+
+    .img-carousel {
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .text-satu {
+        font-size: 35px;
+        font-family: "Tilt Neon", sans-serif;
+        word-spacing: 15px;
+        line-height: 3rem;
+    }
+
+    .text-satu span {
+        font-size: 40px;
+        color: #5da698;
+        font-weight: 800;
+    }
+
+    #carouselExampleIndicators {
+        margin-top: 0rem;
+    }
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+        inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+.icon-link > .bi {
+    margin-top: 0.125rem;
+    margin-left: 0.125rem;
+    fill: currentcolor;
+    transition: transform 0.25s ease-in-out;
+}
+.icon-link:hover > .bi {
+    transform: translate(0.25rem);
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-2 {
+    text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-3 {
+    text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.writertext {
+    overflow: hidden; /* Untuk menyembunyikan teks awal */
+    white-space: nowrap; /* Untuk menjaga teks tetap dalam satu baris */
+    border-right: 2px solid transparent; /* Garis yang akan "menulis" teks */
+    animation: writetext 5s steps(60, end) 3s infinite, jeda 2s 1s infinite; /* Animasi menulis dan jeda */
+}
+
+@keyframes writetext {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%; /* Lebar elemen mencapai 100% */
+    }
+}
+
+@keyframes jeda {
+    from,
+    to {
+        /* Tidak ada perubahan selama jeda */
+    }
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.link a:hover {
+    color: lightgray;
+}

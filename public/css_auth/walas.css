@@ -1,0 +1,35 @@
+/* Mobile Version */
+#detail_siswa_walas {
+    width: 100%;
+    font-size: 11px;
+    display: grid;
+    grid-template-columns: 65% 70%;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+}
+
+#detail_siswa_walas p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+
+    /* Peserta Didik */
+    .bodypdwalas {
+        height: 28rem;
+        overflow: hidden;
+    }
+
+    #tabelpdwalas {
+        width: 100%;
+        height: 22rem;
+    }
+
+
+}

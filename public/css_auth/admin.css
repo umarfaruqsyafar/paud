@@ -1,0 +1,239 @@
+/* gambar */
+
+.kotak {
+    justify-content: left;
+}
+
+.gambar {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.gambar_prestasi {
+    width: 6rem;
+    height: 6rem;
+}
+
+.tombol-gambar {
+    width: 6rem;
+    height: 3rem;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.tulisan-gambar {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.modified-gambar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 5px;
+}
+
+.modified-gambar1 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.gambar-modal {
+    height: 20rem;
+}
+
+/* end gambar */
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.modif {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slide_sub {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ekskul {
+    border: 5px solid rgba(255, 255, 255, .5);
+    width: 100%;
+    height: 13em;
+}
+
+.ekskul_sub {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.guru_sub {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bingkai-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.bingkai {
+    object-fit: cover;
+    width: 80%;
+}
+
+.isi-bingkai {
+    object-fit: contain;
+}
+
+.latar-belakang {
+    background-color: rgb(165, 151, 151);
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.bg_landing {
+    background-color: rgb(35, 250, 118);
+    border-radius: 15px;
+}
+
+.landing {
+    width: 100%;
+    height: 17em;
+}
+
+.landing-sub {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.font_landing {
+    font-family: 'Poiret One', cursive;
+}
+
+.landing_2 {
+    width: 100%;
+    height: 20em;
+}
+
+.sub_landing2 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.prestasi {
+    width: 100%;
+    height: 17em;
+}
+
+.prestasi_sub {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg_cover {
+    background-image: url("../../assets/img/sekolah/bg-paud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.pre-banner-1 {
+    background-image: url("../../img/pre-school/pre-banner-1.jpg");
+}
+
+
+
+.pre-banner-3 {
+    background-image: url("../../img/pre-school/pre-banner-3.jpg");
+}
+
+.pad-pres {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .guru {
+        border: 5px solid rgba(255, 255, 255, .5);
+        width: 100%;
+        height: 25em;
+    }
+
+    .frame {
+        border: solid gray;
+        text-align: center;
+    }
+
+    .photo {
+        width: 100%;
+        height: 15em;
+    }
+
+    .gambar {
+        width: 15rem;
+        height: 15rem;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+    }
+    
+    .modified-gambar {
+        border-radius: 15px;
+    }
+
+    .gambar_prestasi {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .gambar-modal {
+        width: 31rem;
+        height: 20rem;
+    }
+
+    .tombol-gambar {
+        width: 20rem;
+        height: 5rem;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .tulisan-gambar {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .pad-pres {
+        padding: 2rem;
+    }
+}

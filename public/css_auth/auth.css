@@ -1,0 +1,25 @@
+/* Mobile Version */
+.background {
+    background-color: pink;
+}
+
+.login {
+    margin-top: 100px;
+}
+
+#btn {
+    background-color: pink;
+    color: white;
+}
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .login {
+        margin-top: 50px;
+    }
+
+
+
+
+}
